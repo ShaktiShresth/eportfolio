@@ -25,7 +25,7 @@ const Work = () => {
                         React JS Application
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/" target="_blank" rel="noreferrer">
+                        <a href="https://eportfolio-shaktishresth.vercel.app/" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 hover:text-pink-600'>Demo</button>
                         </a>
                         <a href="https://github.com/ShaktiShresth/eportfolio" target="_blank" rel="noreferrer">
