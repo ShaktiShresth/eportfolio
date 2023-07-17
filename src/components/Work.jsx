@@ -3,7 +3,6 @@ import Newsapp from '../assets/newsappimg.png';
 import Inotebook from '../assets/inotebookimg.png';
 import BookCart from '../assets/bookscartimg.png';
 import Portfolio from '../assets/portfoliosample.png';
-import Dribbledesign from "../assets/dribbledesign.png"
 import CarRace from '../assets/cargameimg.png'
 
 const Work = () => {
@@ -42,8 +41,9 @@ const Work = () => {
                         React JS Application
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/" target="_blank" rel="noreferrer">
-                            <button className='text-center rounded-lg px-4 py-3 hover:text-pink-600'>Demo</button>
+                        <a href="/" target="_blank" rel="noreferrer" className='pointer-events-none'>
+                           {/* demo not available */}
+                            <button className='text-center rounded-lg px-4 py-3 hover:text-pink-600 line-through'>Demo</button>
                         </a>
                         <a href="https://github.com/ShaktiShresth/airbnb-clone-MERN" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 hover:text-pink-600'>Code</button>
@@ -58,8 +58,9 @@ const Work = () => {
                         React JS Application
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/" target="_blank" rel="noreferrer">
-                            <button className='text-center rounded-lg px-4 py-3 hover:text-pink-600'>Demo</button>
+                        <a href="/" target="_blank" rel="noreferrer" className='pointer-events-none'>
+                            {/* demo not available */}
+                            <button className='text-center rounded-lg px-4 py-3 hover:text-pink-600 line-through'>Demo</button>
                         </a>
                         <a href="https://github.com/ShaktiShresth/dailynews-app" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 hover:text-pink-600'>Code</button>
@@ -75,8 +76,9 @@ const Work = () => {
                         React JS Application
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/" target="_blank" rel="noreferrer">
-                            <button className='text-center rounded-lg px-4 py-3 hover:text-pink-600'>Demo</button>
+                        <a href="/" target="_blank" rel="noreferrer" className='pointer-events-none'>
+                            {/* demo not available */}
+                            <button className='text-center rounded-lg px-4 py-3 hover:text-pink-600 line-through'>Demo</button>
                         </a>
                         <a href="https://github.com/ShaktiShresth/iNotebook" target="_blank" rel="noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 hover:text-pink-600'>Code</button>
